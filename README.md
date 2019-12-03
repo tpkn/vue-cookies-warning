@@ -56,7 +56,7 @@ Fires right after the user clicks whatever you place inside `acceptButton` slot
 
 ## Usage
 
-```javascript
+```html
 <CookiesWarning>
    We are using cookies for blah-blah-blah. It helps us to blah-blah-blah our service. Please, 
    <template v-slot:acceptButton>
