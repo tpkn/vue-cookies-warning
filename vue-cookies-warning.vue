@@ -3,7 +3,7 @@
    <transition :name="animate ? 'up' : ''" mode="out-in" appear>
       <div v-if="show" :class="[ 'cookies-warning', theme ]">
          <slot></slot>
-         <span @click="acceptAndForget">
+         <span class="accept_button" @click="acceptAndForget">
             <slot name="acceptButton"></slot>
          </span>
       </div>
@@ -76,15 +76,29 @@
    }
 
    .default {
-      padding: 20px 15px;
+      padding: 15px 15px;
 
       color: white;
       background: #000000;
 
       color: #fff;
       font-size: 16px;
-      line-height: 1.4;
+      line-height: 1.5em;
       text-align: center;
+   }
+
+   .accept_button {
+      display: inline-block;
+
+      padding: 5px 9px;
+
+      cursor: pointer;
+      color: #000000;
+      background-color: #f9f9f9;
+   }
+
+   .accept_button:hover {
+      background-color: #e3e9ee;
    }
 
    .up-enter-active, .up-leave-active {
