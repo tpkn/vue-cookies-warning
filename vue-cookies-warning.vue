@@ -90,15 +90,15 @@
    .accept_button {
       display: inline-block;
 
-      padding: 5px 9px;
+      padding: 3px 7px;
 
       cursor: pointer;
-      color: #000000;
-      background-color: #f9f9f9;
+      border: 1px solid #eaeaea;
    }
 
    .accept_button:hover {
-      background-color: #e3e9ee;
+      color: #85cceb;
+      border: 1px solid #85cceb;
    }
 
    .up-enter-active, .up-leave-active {
