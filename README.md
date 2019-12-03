@@ -60,7 +60,7 @@ Fires right after the user clicks whatever you place inside `acceptButton` slot
 <CookiesWarning>
    We are using cookies for blah-blah-blah. It helps us to blah-blah-blah our service. Please, 
    <template v-slot:acceptButton>
-      <button>ACCEPT EVERYTHING THE HELL WE WANT!</button>
+      ACCEPT EVERYTHING THE HELL WE WANT!
    </template>
 </CookiesWarning>
 ````
