@@ -1,0 +1,1 @@
+# vue-cookies-warning
