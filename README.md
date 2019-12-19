@@ -7,7 +7,7 @@ That annoying little bar at the page footer, wrapped into Vue component
 
 ### cookie_name
 **Type**: _Boolean_  
-**Default**: `policy`   
+**Default**: `cookies-accepted`   
 Cookie name that will store the users choice
 
 
